@@ -1,0 +1,56 @@
+:root {
+  --purple: #5b21b6;
+  --dark-gray: #6b7280;
+  --light-gray: #d1d5db;
+}
+
+.App {
+  font-family: sans-serif;
+  color: var(--purple);
+}
+
+.container-center {
+  margin: auto;
+}
+
+.btn {
+  margin: 1rem 0.5rem 1rem 0;
+  background-color: white;
+  color: var(--purple);
+  border: 2px solid var(--purple);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.active {
+  color: white;
+  background-color: var(--purple);
+  border: none;
+}
+
+.list-no-bullet {
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+.list-item {
+  margin-top: 1.5rem;
+  margin-left: 0;
+  border: 1px solid var(--purple);
+  border-radius: 0.5rem;
+  max-width: 600px;
+  padding: 0.5rem;
+}
+
+.list-item span {
+  font-size: 1.25rem;
+  padding: 0.25rem;
+}
+
+.list-item p {
+  font-size: 0.75rem;
+  color: var(--dark-gray);
+  margin: 0;
+  padding: 0.25rem;
+}
